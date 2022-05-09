@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="components-font-awesome/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="col">
+            <div class="block-left">
+
+                <div class="block-left__input">
+                    <input type="text" id="input_point" placeholder="Введите наименование пункта">
+                </div>
+
+                <div class="block-left__attention-block">
+                    <p class="attention" id="error">Введите значение</p>
+                </div>
+
+                <div class="block-left__buttons-block">
+                    <button id="reset-button">
+                        Reset
+                    </button>
+                    <button id="hide-button">
+                        Hide 'Done'
+                    </button>
+                    <button id="show-button">
+                        Show 'Done'
+                    </button>
+                    <button id="add-button">
+                        Ok
+                    </button> 
+                </div>                  
+            </div>
+           <div class="block-right">
+               <div class="small-block">
+                   <ol class="todo-ol">
+
+                   </ol>
+               </div>
+           </div>             
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
